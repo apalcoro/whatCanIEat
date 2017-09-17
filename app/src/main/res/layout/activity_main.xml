@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Registration"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+          />
+        <EditText
+            android:id="@+id/name"
+            android:hint="name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="150dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/register"
+            android:textSize="25dp"
+            />
+
+
+
+    <EditText
+        android:id="@+id/lastName"
+        android:hint="last name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="125dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/name"
+        android:textSize="25dp"
+        />
+    <EditText
+        android:id="@+id/Email"
+        android:hint="Email"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lastName"
+        android:layout_marginLeft="150dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        />
+</RelativeLayout>
