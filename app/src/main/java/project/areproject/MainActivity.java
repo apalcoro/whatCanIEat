@@ -16,6 +16,7 @@ Button register;
         register = (Button)findViewById(R.id.register);
         manual = (Button)findViewById(R.id.manual);
         login = (Button)findViewById(R.id.login);
+        //hi
     }
 
     public void Register(View view) {
